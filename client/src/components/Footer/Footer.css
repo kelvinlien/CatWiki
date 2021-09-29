@@ -1,0 +1,17 @@
+.footerWrapper{
+    position: absolute;
+    width: 1248px;
+    height: 322.09px;
+    left: 96px;
+    top: 1961.14px;
+
+    background: #000000;
+    border-radius: 42px;
+}
+
+.footerLogo{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
+    position: absolute;
+    left: 108px;
+    top: 27.6px;
+}
