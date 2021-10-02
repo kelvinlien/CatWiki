@@ -4,7 +4,7 @@ import "./Header.css"
 import CatWikiLogo from "../CatWikiLogo/CatWikiLogo";
 export default function Header(){
     return (
-      <Box boxSize="sm" centerContent>
+      <Box boxSize="sm">
         <CatWikiLogo parentClass="headerLogo"/>
       </Box>
     );
