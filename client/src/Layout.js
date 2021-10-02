@@ -2,12 +2,13 @@ import './Layout.css';
 import Header from './components/Header/Header.tsx'
 import Footer from './components/Footer/Footer.tsx'
 import React from 'react';
-import HeroImage from "./components/HeroImage/HeroImage";
+import Mainpage from "./pages/Mainpage/Mainpage";
+
 function App() {
   return (
     <React.Fragment>
           <Header/>
-        <HeroImage/>
+        <Mainpage/>
           <Footer/>
     </React.Fragment>
   );
