@@ -4,10 +4,13 @@ export default function Credit(props: any){
     return(
         <Wrap className={`${props.parentClass ? props.parentClass : ''}`}>
             <WrapItem>
-                ©
+                © created by
             </WrapItem>
             <WrapItem>
-                created by Winston - devChallenge.io 2021
+                <strong>Winston</strong>
+            </WrapItem>
+            <WrapItem>
+                - devChallenge.io 2021
             </WrapItem>
         </Wrap>
     );
