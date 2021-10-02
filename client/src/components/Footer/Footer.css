@@ -1,12 +1,12 @@
 .footerWrapper{
     position: absolute;
-    width: 1248px;
-    height: 322.09px;
-    left: 96px;
+    width: calc(100% - 192px);
+    height: 100px;
+    margin: 96px;
     top: 1961.14px;
 
     background: #000000;
-    border-radius: 42px;
+    border-radius: 42px 42px 0 0;
 }
 
 .footerLogo{
@@ -14,4 +14,12 @@
     position: absolute;
     left: 108px;
     top: 27.6px;
+}
+
+.footerCredit{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: white;
+    font-size: 24px;
 }
