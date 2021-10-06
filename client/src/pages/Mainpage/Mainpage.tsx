@@ -5,6 +5,7 @@ import ImagesRow from "../../components/ImagesRow/ImagesRow";
 import CatWikiLogo from "../../components/CatWikiLogo/CatWikiLogo";
 import "./Mainpage.css"
 import SearchBar from "../../components/SearchBar/SearchBar";
+import DiscoveryImage from "../../components/DiscoveryImage/DiscoveryImage";
 
 const images = ["https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800"];
 export default function Mainpage(){
@@ -14,6 +15,7 @@ export default function Mainpage(){
             <CatWikiLogo parentClass="heroCatWikiLogo"/>
             <Text className={"heroText"}>Get to know more about your cat breed</Text>
             <SearchBar placeholder={"Enter your breed"} parentClass={"heroSearchBar"}/>
+            <DiscoveryImage/>
         </Stack>
     );
 }
