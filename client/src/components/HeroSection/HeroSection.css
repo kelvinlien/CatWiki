@@ -1,0 +1,26 @@
+.heroSectionWrapper{
+    position: relative;
+}
+
+.heroCatWikiLogo{
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
+    width: auto;
+    height: 180px;
+}
+
+.heroText{
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
+    font-size: 28px;
+}
+
+.heroSearchBar{
+    position: absolute !important;
+    top: 330px;
+    left: 170px;
+}
