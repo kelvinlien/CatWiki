@@ -4,12 +4,13 @@
 
 .customSearchInput{
     border-radius: 59px;
-    width: 400px;
+    width: 320px;
     height: 70px;
     font-size: xx-large;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     padding-inline-end: 60px;
+    padding-inline-start: 20px;
 }
 
 .searchIcon{
