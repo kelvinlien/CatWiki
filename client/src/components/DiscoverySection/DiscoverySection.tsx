@@ -1,13 +1,17 @@
 import React from 'react';
-import {Box} from "@chakra-ui/react";
+import {Box, Center, Text} from "@chakra-ui/react";
 import "./DiscoverySection.css"
-import DiscoveryImage from "../DiscoveryImage/DiscoveryImage";
 
 function DiscoverySection(props: any) {
     return (
-        <Box className={"discoverySectionWrapper"}>
-            <DiscoveryImage />
-        </Box>
+        <Center>
+            <Box className={"discoverySectionWrapper"}>
+                <Text className={"mostSearchText"}>Most Searched Breeds</Text>
+                <Box className={"mostSearchDivider"}>
+                    <hr/>
+                </Box>
+            </Box>
+        </Center>
     );
 }
 

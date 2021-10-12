@@ -1,0 +1,25 @@
+.discoverySectionWrapper{
+    background-image: url("../../assets/DiscoveryImagelg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    border-radius: 0 0 42px 42px;
+    width: calc(100% - 150px);
+}
+
+.mostSearchText{
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    margin: 50px 0 0 100px;
+    font-size: 28px;
+}
+
+.mostSearchDivider{
+    width: 100px;
+    margin: 90px 0 0 100px;
+}
