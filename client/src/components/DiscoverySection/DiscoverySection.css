@@ -1,4 +1,4 @@
-.discoverySectionWrapper{
+.discoverySectionBackground{
     background-image: url("../../assets/DiscoveryImagelg.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,19 +7,51 @@
     width: calc(100% - 150px);
 }
 
+.discoverySectionWrapper{
+    margin: 50px 100px;
+}
+
 .mostSearchText{
     font-family: Montserrat, serif;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0;
-    text-align: left;
-    position: absolute;
-    margin: 50px 0 0 100px;
     font-size: 28px;
+    color: #291507;
 }
 
 .mostSearchDivider{
     width: 100px;
-    margin: 90px 0 0 100px;
+    margin-top: 20px;
+    color: #291507;
+}
+
+.discoveryIntroductionSection{
+    margin-top: 50px;
+}
+
+.discoveryIntroductionText{
+    font-family: Montserrat, serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0;
+    width: 650px;
+}
+
+.seeMoreText{
+    font-family: Montserrat, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: rgba(41, 21, 7, 0.6);
+}
+
+.seeMoreIcon{
+    font-size: 26px;
+    color: rgba(41, 21, 7, 0.6);
 }
