@@ -4,3 +4,13 @@
     height: 300px;
     object-fit: cover;
 }
+
+.nameInRow{
+    font-family: Montserrat, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #291507;
+}

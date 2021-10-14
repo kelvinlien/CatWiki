@@ -4,7 +4,6 @@ import "./DiscoverySection.css"
 import {ArrowForwardIcon} from "@chakra-ui/icons";
 import ImagesRow from "../ImagesRow/ImagesRow";
 
-const images = ["https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800","https://via.placeholder.com/1200x800"];
 function DiscoverySection(props: any) {
     return (
         <Center>
@@ -21,7 +20,7 @@ function DiscoverySection(props: any) {
                             <ArrowForwardIcon className={"seeMoreIcon"}/>
                         </HStack>
                     </HStack>
-                    <ImagesRow children={images}/>
+                    <ImagesRow/>
                 </Box>
             </Box>
         </Center>
