@@ -1,26 +1,29 @@
+.heroSectionBackground{
+    background-image: url("../../assets/HeroImagelg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    border-radius: 42px 42px 0 0;
+    width: calc(100% - 150px);
+}
+
 .heroSectionWrapper{
-    position: relative;
+    margin: 50px 100px;
 }
 
 .heroCatWikiLogo{
-    position: absolute;
-    top: 50px;
-    left: 170px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
     width: auto;
     height: 180px;
+    margin-top: 30px;
 }
 
 .heroText{
-    position: absolute;
-    top: 250px;
-    left: 170px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
-    font-size: 28px;
+    font-size: 36px;
+    width: 500px;
 }
 
 .heroSearchBar{
-    position: absolute !important;
-    top: 330px;
-    left: 170px;
+    margin-top: 100px;
 }
