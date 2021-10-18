@@ -39,18 +39,3 @@
     letter-spacing: 0;
     width: 650px;
 }
-
-.seeMoreText{
-    font-family: Montserrat, serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0;
-    color: rgba(41, 21, 7, 0.6);
-}
-
-.seeMoreIcon{
-    font-size: 26px;
-    color: rgba(41, 21, 7, 0.6);
-}

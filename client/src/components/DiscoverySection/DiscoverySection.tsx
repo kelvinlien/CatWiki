@@ -1,8 +1,8 @@
 import React from 'react';
 import {Box, Center, HStack, Text} from "@chakra-ui/react";
 import "./DiscoverySection.css"
-import {ArrowForwardIcon} from "@chakra-ui/icons";
 import ImagesRow from "../ImagesRow/ImagesRow";
+import ButtonLink from "../ButtonLink/ButtonLink";
 
 function DiscoverySection(props: any) {
     return (
@@ -15,10 +15,7 @@ function DiscoverySection(props: any) {
                     </Box>
                     <HStack className={"discoveryIntroductionSection"} justify={"space-between"}>
                         <Text className={"discoveryIntroductionText"}>66+ Breeds For you to discover</Text>
-                        <HStack spacing={6}>
-                            <Text className={"seeMoreText"}>SEE MORE</Text>
-                            <ArrowForwardIcon className={"seeMoreIcon"}/>
-                        </HStack>
+                        <ButtonLink text={"SEE MORE"}/>
                     </HStack>
                     <ImagesRow/>
                 </Box>
