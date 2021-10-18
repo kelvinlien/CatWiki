@@ -1,0 +1,25 @@
+.whyCatDivider{
+    width: 150px;
+    margin-top: 10px;
+    color: #291507;
+}
+
+.whyCatHeading{
+    font-family: Montserrat, serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0;
+}
+
+.whyCatParagraph{
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-block: 50px !important;
+}
