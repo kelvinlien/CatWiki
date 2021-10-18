@@ -1,9 +1,8 @@
 .footerWrapper{
-    position: absolute;
     width: calc(100% - 192px);
     height: 100px;
-    margin: 96px;
-    top: 1961.14px;
+    margin-inline: 75px;
+    margin-top: 50px;
 
     background: #000000;
     border-radius: 42px 42px 0 0;
@@ -11,16 +10,14 @@
 
 .footerLogo{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
-    position: absolute;
-    left: 108px;
-    top: 27.6px;
+    margin-block: auto;
+    margin-inline-start: 100px;
 }
 
 .footerCredit{
-    position: absolute;
-    right: 30px;
-    top: 30px;
+    margin-block: auto !important;
+    margin-inline-end: 42px !important;
     color: white;
-    font-size: 24px;
-    font-weight: lighter;
+    font-size: 28px;
+    font-weight: normal;
 }

@@ -1,13 +1,14 @@
-import { Box } from "@chakra-ui/react";
+import {Text, HStack} from "@chakra-ui/react";
 import React from "react";
 import "./Footer.css"
 import CatWikiLogo from "../CatWikiLogo/CatWikiLogo";
-import Credit from "../Credit/Credit";
 export default function Footer(){
     return (
-      <Box boxSize="sm" className="footerWrapper">
+      <HStack className="footerWrapper" justify={"space-between"}>
         <CatWikiLogo parentClass="footerLogo"/>
-          <Credit parentClass="footerCredit"/>
-      </Box>
+          <Text className={"footerCredit"}>
+              © created by <strong>Winston</strong> - devChallenge.io 2021
+          </Text>
+      </HStack>
     );
 }
