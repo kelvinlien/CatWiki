@@ -1,5 +1,25 @@
-.headerLogo{
-    margin-top: 26.33px;
-    margin-left: 96px;
-    margin-bottom: 26.33px;
+.headerLogo {
+    margin-block: 13px;
+    margin-inline-start: 18px;
+    height: 44px;
+    width: 128px;
 }
+
+@media only screen and (min-width: 600px){
+    .headerLogo {
+        margin-block: 25px;
+        margin-inline-start: 96px;
+        height: 44px;
+        width: 128px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .headerLogo {
+        margin-block: 27px;
+        margin-inline-start: 96px;
+        height: 44px;
+        width: 128px;
+    }
+}
+
