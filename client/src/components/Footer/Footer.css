@@ -1,7 +1,7 @@
 .footerWrapper{
-    width: calc(100% - 192px);
-    height: 100px;
-    margin-inline: 75px;
+    width: 90vw;
+    height: fit-content;
+    margin-inline: auto;
     margin-top: 50px;
 
     background: #000000;
@@ -10,14 +10,30 @@
 
 .footerLogo{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
-    margin-block: auto;
-    margin-inline-start: 100px;
+    margin-block-start: 1vh;
+    margin-inline-start: 5vw;
 }
 
 .footerCredit{
-    margin-block: auto !important;
-    margin-inline-end: 42px !important;
+    margin-block-end: 1vh;
+    margin-inline: 5vw;
     color: white;
-    font-size: 28px;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px){
+    .footerLogo{
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(112%) contrast(101%);
+        margin-block: 1vh;
+        margin-inline-start: 5vw;
+    }
+
+    .footerCredit{
+        margin-block-end: auto;
+        margin-inline: 5vw;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+    }
 }
